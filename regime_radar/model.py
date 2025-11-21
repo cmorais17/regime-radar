@@ -1,0 +1,3 @@
+"""
+Statistical regime detection model
+"""
