@@ -92,6 +92,7 @@ def fetch_price_series(
     result = pd.DataFrame(index=prices.index.copy())
     result["price"] = prices
     result["log_return"] = log_ret
+    result = result.dropna()
 
     if result.empty:
         raise ValueError(f"Insufficient data to compute log returns for ticker {ticker!r}")
