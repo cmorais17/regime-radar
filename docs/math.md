@@ -57,10 +57,7 @@ $$
 the log-likelihood of this segment is
 
 $$
-\ell(\mu, \sigma^2)
-= -\frac{m}{2} \log(2\pi)
-  - \frac{m}{2} \log(\sigma^2)
-  - \frac{1}{2\sigma^2}\sum_{i=s}^{t-1}(r_i - \mu)^2.
+\ell(\mu, \sigma^2) = -\frac{m}{2} \log(2\pi) - \frac{m}{2} \log(\sigma^2) - \frac{1}{2\sigma^2}\sum_{i=s}^{t-1}(r_i - \mu)^2.
 $$
 
 The maximum likelihood estimates (MLEs) for this segment are:
