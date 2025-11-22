@@ -84,10 +84,7 @@ Then $\hat{\sigma}^2 = \text{SSE}(s, t) / m$.
 Plugging $(\hat{\mu}, \hat{\sigma}^2)$ back into the log-likelihood,
 
 $$
-\ell(\hat{\mu}, \hat{\sigma}^2)
-= -\frac{m}{2} \log(2\pi)
-  - \frac{m}{2} \log\left( \frac{\text{SSE}(s, t)}{m} \right)
-  - \frac{1}{2} m.
+\ell(\hat{\mu}, \hat{\sigma}^2) = -\frac{m}{2} \log(2\pi) - \frac{m}{2} \log\left( \frac{\text{SSE}(s, t)}{m} \right) - \frac{1}{2} m.
 $$
 
 Equivalently, up to additive constants (that do not depend on the segmentation),
