@@ -9,7 +9,9 @@ The default model is a **piecewise-Gaussian with regime-specific mean and varian
 
 - Fetch daily historical prices for any ticker (via `yfinance`)
 - Compute log returns:  
-  $$ r_t = \log P_t - \log P_{t-1} $$
+$$ 
+r_t = \log P_t - \log P_{t-1} 
+$$
 - Detect statistically significant regime shifts using:
   - **Mean-shift model** (`--model mean`)
   - **Mean + variance model** (`--model mean-var`, default)
